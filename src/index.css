@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap");
 :root {
   --charcoal: #1a1818;
   --offwhite: #ece7e1;
@@ -15,6 +16,8 @@
   --new-pink: #ff94c1;
 }
 * {
+  padding: 0;
+  margin: 0;
   box-sizing: border-box;
 }
 body {
@@ -76,6 +79,13 @@ html {
   width: 0.1rem;
   height: 10rem;
   background-color: var(--charcoal);
+  margin-top: 1rem;
+  margin-bottom: 8rem;
+}
+.nav--line--offwhite {
+  width: 0.1rem;
+  height: 10rem;
+  background-color: var(--offwhite);
   margin-top: 1rem;
   margin-bottom: 8rem;
 }
@@ -184,4 +194,7 @@ html {
   font-weight: 400;
   line-height: 1.9em;
   position: relative;
+}
+.off--white {
+  color: #ece7e1;
 }
