@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import "./work.css";
 
 const Work = () => {
   return (
@@ -45,15 +46,7 @@ const Work = () => {
                   A collection of projects that showcase my passion for creative
                   problem-solving and collaboration while also exploring the
                   intersection of design and technology
-                  <span
-                    style={{
-                      display: "block",
-                      marginTop: "10px",
-                      marginBottom: "10px",
-                      fontSize: "1.3rem",
-                      fontWeight: "400",
-                    }}
-                  >
+                  <span className="off--white--span">
                     The world of web design and development is constantly
                     evolving and so has my role over the last 5 years. I'm still
                     learning and gaining new skills every day.
@@ -67,22 +60,22 @@ const Work = () => {
             <div className="nav">
               <div className="nav--item">
                 <a href="/work" className="nav--link off--white">
-                  WORKS
+                  OMNIFOOD
                 </a>
               </div>
               <div className="nav--item--offwhite">
                 <a href="/about" className="nav--link off--white off--link">
-                  ABOUT
+                  MAPTY
                 </a>
               </div>
               <div className="nav--item">
                 <a href="/shop" className="nav--link off--white off--link">
-                  SHOP
+                  BANKIST
                 </a>
               </div>
               <div className="nav--item">
                 <a href="/contact" className="nav--link off--white off--link">
-                  CONTACT
+                  FORKIFY
                 </a>
               </div>
             </div>

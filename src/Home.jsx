@@ -1,6 +1,20 @@
+import { motion } from "framer-motion";
+
 const Home = () => {
   return (
-    <div>
+    <motion.div
+      initial={{
+        translateY: "100%",
+        // backgroundColor: "#000",
+      }}
+      animate={{
+        translateY: "0%",
+        backgroundColor: "#ece7e1",
+      }}
+      transition={{
+        duration: "1",
+      }}
+    >
       <div className="nav--left">
         <div className="nav--left--item">
           <a
@@ -76,7 +90,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
