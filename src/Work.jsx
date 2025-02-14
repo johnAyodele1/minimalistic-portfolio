@@ -59,18 +59,19 @@ const Work = () => {
           <div className="section--right">
             <div className="nav">
               <div className="nav--item">
-                <a href="/work" className="nav--link off--white">
+                <a href="/omnifood" className="nav--link off--white">
                   OMNIFOOD
                 </a>
               </div>
-              <div className="nav--item--offwhite">
-                <a href="/about" className="nav--link off--white off--link">
-                  MAPTY
+
+              <div className="nav--item">
+                <a href="/bankist" className="nav--link off--white off--link">
+                  BANKIST
                 </a>
               </div>
-              <div className="nav--item">
-                <a href="/shop" className="nav--link off--white off--link">
-                  BANKIST
+              <div className="nav--item--offwhite">
+                <a href="/mapty" className="nav--link off--white off--link">
+                  MAPTY
                 </a>
               </div>
               <div className="nav--item">

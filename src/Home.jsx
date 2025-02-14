@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-
+import "./home.css";
 const Home = () => {
   return (
     <motion.div
@@ -46,17 +46,14 @@ const Home = () => {
               <h1 className="header swipe--up">John Ayodele</h1>
             </div>
             <div className="description--mask">
-              <p className="description">
+              <p
+                className="description"
+                style={{
+                  fontSize: "1.6rem",
+                }}
+              >
                 Website Developer / React Developer /Mobile App Developer
-                <span
-                  style={{
-                    display: "block",
-                    marginTop: "10px",
-                    marginBottom: "10px",
-                    fontSize: "1.3rem",
-                    fontWeight: "400",
-                  }}
-                >
+                <span className="span">
                   Highly Motivated Front-end Developer with expertise in
                   creating user-friendly interface.
                 </span>

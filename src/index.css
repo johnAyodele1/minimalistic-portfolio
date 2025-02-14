@@ -56,7 +56,7 @@ html {
   letter-spacing: 0.5rem;
   text-transform: uppercase;
   border: 0 solid #000;
-  font-family: Montserrat, sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 1rem;
   font-weight: 500;
   text-decoration: none;
@@ -78,7 +78,7 @@ html {
 .copyright {
   text-align: center;
   letter-spacing: 4px;
-  font-family: Montserrat, sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 10px;
   font-weight: 500;
 }
@@ -117,8 +117,8 @@ html {
 .swipe--up {
   letter-spacing: 0.2rem;
   text-transform: uppercase;
-  font-family: Montserrat, sans-serif;
-  font-size: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
   font-weight: 500;
   margin: 30rem 0 0 0;
 }
@@ -165,7 +165,7 @@ html {
   text-transform: uppercase;
   border: 0 solid #000;
   font-family: "Playfair Display", serif;
-  font-size: 11vw;
+  font-size: 10vw;
   font-weight: 300;
   line-height: 0.95em;
   text-decoration: none;
@@ -222,7 +222,7 @@ html {
   max-width: 100%;
   margin-left: 0;
   margin-right: 0;
-  font-family: Montserrat, sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 13px;
   font-weight: 500;
   line-height: 1.9em;
@@ -241,7 +241,7 @@ html {
   font-size: 1.3rem;
   font-weight: 400;
 }
-@media (max-width: 1200px) {
+/* @media (max-width: 1200px) {
   .wrapper {
     display: grid;
     grid-template-columns: 1fr 3fr;
@@ -255,4 +255,4 @@ html {
     padding: 0;
     font-size: 11rem;
   }
-}
+} */
