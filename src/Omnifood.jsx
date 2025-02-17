@@ -1,5 +1,7 @@
 import { motion } from "framer-motion";
 import "./omnifood.css";
+import image1 from "../src/assets/1/{10DA759C-00A3-42CA-BCDC-E574CDF79C51}.png.jpg";
+import image2 from "../src/assets/1/{3C86E7F5-89BA-463A-B2CB-72872DEBFA5A}.png.jpg";
 const Omnifood = () => {
   return (
     <motion.div
@@ -9,7 +11,7 @@ const Omnifood = () => {
         backgroundColor: "#ece7e1",
       }}
       initial={{
-        translateY: "-200%",
+        translateY: "-100%",
       }}
       animate={{
         translateY: "0%",
@@ -54,13 +56,15 @@ const Omnifood = () => {
           </div>
           <div>
             <h3>URL</h3>
-            <a href="https://www.omnifood-johnayodele.com">
-              https://www.omnifood-johnayodele.com
+            <a href="https://github.com/johnAyodele1/Omnifood/tree/master">
+              https://github.com/....
             </a>
           </div>
         </div>
       </div>
-      <div className="image1"></div>
+      <div className="image1">
+        <img src={image1} alt="Image Pics" />
+      </div>
       <div className="text">
         Designed and developed a user-friendly interface for seamless food
         management and ordering food.
@@ -70,11 +74,17 @@ const Omnifood = () => {
         HTML and CSS and animation possibilities would normally be very limited
         without this skill. I had a lot of fun creating this website.
       </div>
-      <div className="image2"></div>
+      <div className="image1">
+        <img src={image2} alt="Image Pics" />
+      </div>
       <div className="content-footer">
         <blockquote className="call-to-action">Check it out.</blockquote>
-        <a href="http://okalpha.co" target="_blank" className="button w-button">
-          http://okalpha.co
+        <a
+          href="https://github.com/johnAyodele1/Omnifood/tree/master"
+          target="_blank"
+          className="button w-button"
+        >
+          http://github.com/...
         </a>
       </div>
     </motion.div>

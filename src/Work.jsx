@@ -75,7 +75,7 @@ const Work = () => {
                 </a>
               </div>
               <div className="nav--item">
-                <a href="/contact" className="nav--link off--white off--link">
+                <a href="/forkify" className="nav--link off--white off--link">
                   FORKIFY
                 </a>
               </div>

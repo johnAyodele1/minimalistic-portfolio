@@ -25,12 +25,12 @@ const Home = () => {
           </a>
         </div>
         <div className="nav--left--item">
-          <a className="nav--left--link" href="">
+          <a className="nav--left--link" href="https://www.x.com">
             TW
           </a>
         </div>
         <div className="nav--left--item">
-          <a className="nav--left--link" href="">
+          <a className="nav--left--link" href="https://github.com/johnAyodele1">
             GH
           </a>
         </div>

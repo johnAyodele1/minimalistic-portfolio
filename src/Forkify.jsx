@@ -1,9 +1,8 @@
 import { motion } from "framer-motion";
 import "./omnifood.css";
-import image3 from "../src/assets/2/{1BEC929C-FAF5-45B9-B553-55F0A137244A}.png.jpg";
-import image4 from "../src/assets/2/{3432415B-8978-46AB-BFA6-FEF67E464EC2}.png.jpg";
-import image5 from "../src/assets/2/{08586363-7D0F-4B34-90A4-671B5AC1ADDE}.png.jpg";
-const Bankist = () => {
+import image8 from "../src/assets/3/{2660CF9C-B50D-449B-B37C-1E4CB2A0F4D0}.png.jpg";
+import image9 from "../src/assets/3/{31D266E2-CDA3-4141-877E-83A5EF05ADE9}.png.jpg";
+const Forkify = () => {
   return (
     <motion.div
       style={{
@@ -33,12 +32,13 @@ const Bankist = () => {
         </div>
       </div>
       <div className="work--background">
-        <h1>BANKIST</h1>
+        <h1>FORKIFY</h1>
       </div>
       <div className="small--wrapper">
         <div className="work--description">
-          Bankist is a clean and modern landing page for a banking institution,
-          focusing on simplicity and user experience.
+          Forkify is a recipe search and discovery web application that allows
+          users to find and save their favorite recipes, filter search results
+          by cooking time, servings, and dietary restrictions.
         </div>
       </div>
       <div className="wrapper--table">
@@ -56,42 +56,34 @@ const Bankist = () => {
           </div>
           <div>
             <h3>URL</h3>
-            <a href="https://github.com/johnAyodele1/Bankist">
+            <a href="https://github.com/johnAyodele1/forkify/tree/master">
               https://github.com/...
             </a>
           </div>
         </div>
       </div>
       <div className="image1">
-        <img src={image3} alt="Image Pics" />
+        <img src={image8} alt="Image Pics" />
       </div>
       <div className="text">
-        The page aims to promote the bank's services, encouraging visitors to
-        sign up with prominent call-to-action (CTA) buttons to drive coversions.
+        Search for recipes by ingredient, dish, or cuisine and view detailed
+        recipe instructions and ingredients, save and organize favorite recipes
+        in a personalized cookbook.Responsive design for seamless user
+        experience across devices
       </div>
       <div className="text1">
-        This project showcases my ability to design intuitive and effective
-        landing pages that drives results by creating a visually appealing and
-        easy-to-navigate interface.
+        Forkify demonstrates my skills in front-end development, API
+        integration, and user experience design. I'm proud of the features and
+        functionality I've implemented, and I'm excited to continue improving
+        and expanding the application.
       </div>
       <div className="image1">
-        <img src={image4} alt="Image Pics" />
-      </div>
-      <div className="text">
-        Minimalistic design with ample whitespace for clear messaging and
-        concise and compelling content highlighting the bank's benefits.
-      </div>
-      <div className="text1">
-        Effectively communicated the bank's value proposition with seamless
-        viewing for visitors
-      </div>
-      <div className="image1">
-        <img src={image5} alt="Image Pics" />
+        <img src={image9} alt="Image Pics" />
       </div>
       <div className="content-footer">
         <blockquote className="call-to-action">Check it out.</blockquote>
         <a
-          href="https://github.com/johnAyodele1/Bankist"
+          href="https://github.com/johnAyodele1/forkify/tree/master"
           target="_blank"
           className="button w-button"
         >
@@ -102,4 +94,4 @@ const Bankist = () => {
   );
 };
 
-export default Bankist;
+export default Forkify;

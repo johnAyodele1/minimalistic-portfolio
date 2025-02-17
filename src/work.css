@@ -36,7 +36,16 @@ body {
     gap: 3rem;
     padding-left: 0%;
   }
+
   @media (max-width: 950px) {
+    .nav--line {
+      width: 10rem;
+      height: 0.09rem;
+      margin-bottom: 5rem;
+
+      /* margin-top: 0;
+        margin-bottom: 0; */
+    }
     .nav--link.off--white {
       font-size: 7rem;
     }
